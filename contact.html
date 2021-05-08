@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Contact Us ShethYug Yoga</title>
+<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="libs/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="../libs/html5shiv.min.js"></script>
+  <script src="../libs/respond.min.js"></script>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <a class="navbar-brand" href="index.html"> <img src="images/logooriginal.png"></a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul id="navtext" class="nav navbar-nav navbar-right">
+        <li><a href="tel:+919398911400"><span class="glyphicon glyphicon-earphone"></span> <strong>+91-9398911400</strong> <span style="color:#000;">(24/7) Support</span></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main> <!-- InstanceBeginEditable name="content" -->
+<main>
+<section>
+<div class="container" style="margin:30px;">
+<h2 class="text-center"><strong>Create an Account</strong></h2>
+<div class="row">
+  <div class="col-sm-6">
+    <form id="formsubmit" action="javascript:alert('Data Submitted successfully')" method="post" >
+      <div class="form-group">
+        <div class="row">
+          <div class="col-sm-6">
+            <label>First Name</label>
+            <input type="text" name="name" class="form-control"  placeholder="Enter First Name">
+          </div>
+          <div class="col-sm-6">
+            <label>Last Name</label>
+            <input type="text" name="name" class="form-control"  placeholder="Enter Last Name">
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Date Of Birth</label>
+        <div class='input-group date' id='datetimepicker1'>
+          <input type='text' name="dob" class="form-control" />
+          <span class="input-group-addon"> <span class="glyphicon glyphicon-calendar"></span> </span> </div>
+        <!--<input type="text" name="dob" class="form-control"                  placeholder="DD/MM/YYYY">--> 
+      </div>
+      <div class="form-group">
+        <label>Address</label>
+        <textarea class="form-control"  name="address" style="resize:none" name="address">
+        </textarea>
+      </div>
+      <div class="form-group">
+        <div class="row">
+          <div class="col-sm-6">
+            <label>Mobile Number</label>
+            <input type="text" name="mobile" class="form-control" maxlength="10">
+          </div>
+          <div class="col-sm-6">
+            <label>Country</label>
+            <select class="form-control" name="country">
+              <option value="">Select</option>
+              <option value="In">India</option>
+              <option value="Us">United States</option>
+              <option value="Ch">Chaina</option>
+              <option value="Uk">United Kingdom</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="row">
+          <div class="col-sm-4">
+            <label>State</label>
+            <select class="form-control" name="state">
+              <option value="">Select</option>
+              <option value="Ap">AndhraPradesh</option>
+              <option value="Ts">Telangana</option>
+              <option value="As">Assam</option>
+              <option value="Bi">Bihar</option>
+              <option value="Gu">Gujarat</option>
+            </select>
+          </div>
+          <div class="col-sm-4">
+            <label>City</label>
+            <input type="text" name="city" class="form-control">
+          </div>
+          <div class="col-sm-4">
+            <label>Pincode</label>
+            <input type="text" name="pincode" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="form-group"> <strong>Gender</strong>
+        <label class="radio-inline">
+          <input type="radio" name="gender" >
+          Male</label>
+        <label class="radio-inline">
+          <input type="radio" name="gender" >
+          Female</label>
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" class="form-control"  name="email" placeholder="Username@example.com">
+      </div>
+      
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="form-group">
+            <label>Create Password</label>
+            <input type="password" name="password" id="password" class="form-control" >
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="form-group">
+            <label>Confirm Password</label>
+            <input type="password" name="confirm_password" class="form-control" >
+          </div>
+        </div>
+        <div class="col-xs-4" style="padding-top:30px;">
+              <span class="glyphicon glyphicon-eye-close" id="toggle_password"></span>
+              </div> 
+      </div>
+      
+      <!--<div class="form-group">
+           <label>Password</label>
+           <input type="password" name="password" id="password" class="form-control" >
+           </div>
+           
+           <div class="form-group">
+           <label>Cofirm Password</label>
+           <input type="password" name="confirm_password" class="form-control" >
+           </div>-->
+      
+      <div class="form-group">
+        <label>Comments</label>
+        <textarea name="message" class="form-control" maxlength="150"style="resize:none;">
+        </textarea>
+      </div>
+      
+      <!--<div class="form-group">
+   			<label>Upload</label>
+   			<input type="file" name=""  multiple>
+            </div>-->
+      
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="agree">
+          I Agree</label>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="reset" class="btn btn-primary" name="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+  
+  
+  <div class="col-sm-6">
+    <div class="row"> 
+      <div class="col-sm-offset-2">
+        <h3><strong>Address:</strong></h3>
+        <p><strong>Shethyug Yoga</strong><br>
+          165B-15, Near Old Bustand,<br>
+          Eluru,Andhra Pradesh,534002</p>
+        <p><strong>Phone:</strong><a href="tel:+91-9398911400">+91-9398911400</a>&nbsp;&nbsp;&nbsp;&nbsp;(24/7)Support        </p>
+        <p><strong>Mail to:</strong><a href="mailto:info@company.com">info@company.com</a>        </p>
+        <p><strong>Website:</strong><a href="website">https://www.google.com/></a></p>
+                 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d955.3199836262822!2d81.11369957430298!3d16.71287857567205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3614d0feba1a59%3A0xb4ce63d6806dd5c6!2sEluru%20Old%20Bus%20Stand!5e0!3m2!1sen!2sin!4v1585303490595!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>   
+    </div>
+    </div>
+    
+  </div>
+ </div>
+</section>
+</main>
+<!-- InstanceEndEditable --> </main>
+<footer class="footer">
+  <section class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <ul class="list-unstyled">
+            <li class="footer-title"><strong>Types of Yoga</strong></li>
+            <li><a href="#">Hatha Yoga</a></li>
+            <li><a href="#">Power Yoga</a></li>
+            <li><a href="#">Ashtanga Yoga</a></li>
+            <li><a href="#">Vinyasa Yoga</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <ul class="list-unstyled">
+            <li class="footer-title"><strong>Connect</strong></li>
+            <li><a href="#">Newsletter Signup</a></li>
+            <li><a href="#">Teachers</a></li>
+            <li><a href="#">Workshops</a></li>
+            <li><a href="#">Academy</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <ul class="list-unstyled">
+            <li class="footer-title"><strong>About</strong></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">FAQS</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Carrer</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <ul class="list-unstyled">
+            <li class="footer-title"><strong>Our Services</strong></li>
+            <li><a href="#">Home yoga</a></li>
+            <li><a href="#">Yoga Therapy</a></li>
+            <li><a href="#">Parental Yoga</a></li>
+            <li><a href="#">weight Reduction</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul class="list-unstyled address">
+            <li class="footer-title"><strong>Get In Touch</strong></li>
+            <li><span class="glyphicon glyphicon-map-marker"></span>165B-15,Old busstand,Eluru, <br>
+              Andhra Pradesh,W.G Dist,534002.</li>
+            <li><span class="glyphicon glyphicon-earphone"></span><a href="tel:(+91)-9398911400"><strong> +91-9398911400</strong> <span style="color:#000;">(24/7 Support)</span></a></li>
+            <li><span class="glyphicon glyphicon-envelope"></span><a href="mailto:info@company.com"> info@company.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="social">
+        <h5>Follow Surface</h5>
+        <ul class="list-inline">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="copyright">
+    <div class="container-fluid text-center">
+      &copy; 2020 Shethyug Yoga. All Rights Reserved. <a href="#">Privacy Policy</a> |<a href="#"> Terms of Service</a>
+    </div>
+  </section>
+</footer>
+<script src="libs/jquery.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="libs/fontawesome.js"></script>
+<!-- InstanceBeginEditable name="footer" --> 
+     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js">
+     </script> 
+     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js">
+     </script> 
+     <script src="js/moment.min.js"></script> 
+     <script src="js/bootstrap-datetimepicker.min.js"></script> 
+     <script>
+	 $(document).ready(function(){
+		 
+		
+		//glyphicon glyphicon-eye-open
+		 $('#toggle_password').click(function(){
+	
+		if($(this).hasClass('glyphicon-eye-close'))
+		{
+			$(this).removeClass('glyphicon-eye-close').addClass('glyphicon-eye-open');
+			$('#password').attr('type', 'text');
+		}
+		else
+		{
+			$(this).addClass('glyphicon-eye-close').removeClass('glyphicon-eye-open');
+			$('#password').attr('type', 'password');
+		}
+		
+		
+	});
+
+//glyphicon glyphicon-eye-close
+
+	
+			<!--Validation code-->
+			$.validator.setDefaults({
+		highlight: function (element) {
+			$(element).closest('.form-group').addClass('has-error');
+		},
+		unhighlight: function (element) {
+			$(element).closest('.form-group').removeClass('has-error');
+		},
+		errorElement: 'span',
+		errorClass: 'help-block error',
+		errorPlacement: function (error, element) {
+			if (element.parent('.input-group').length) {
+				error.insertAfter(element.parent());
+			} else if (element.attr('type') === 'radio') {
+				error.insertAfter(element.parent().parent());
+			} else if (element.attr('type') === 'checkbox') {
+				error.insertAfter(element.parent().parent());
+			} else if (element.attr('name') === 'dob[]') {
+				error.insertAfter(element.parent());
+			} else {
+				error.insertAfter(element);
+			}
+		}
+	});
+	
+	
+			 
+			 
+      $('#datetimepicker1').datetimepicker();
+	  $('#formsubmit').validate({
+		rules: {
+			name: {
+				required: true,
+				minlength: 2
+			},
+			mobile: {
+				required: true,
+				number: true,
+				minlength: 10,
+				maxlength: 10
+			},
+			email: {
+				required: true,
+				email: true
+			},
+			
+			password: 'required',
+			confirm_password: {
+				required: true,
+				equalTo: "#password"
+			},
+		
+		dob:'required',
+		address:'required',
+		country:'required',
+		city:'required',
+		pincode:'required',
+		gender:'required',
+		state:'required',
+		message:'required',
+		},
+		
+		messages: { 
+	                message:{
+				    required:"Please enter a message regarding company only 150 words",
+			 },
+		},
+	});
+	});
+	</script> 
+     <!-- InstanceEndEditable -->
+<script src="js/scripts.js"></script>
+</body>
+<!-- InstanceEnd --></html>
